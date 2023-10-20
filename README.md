@@ -72,6 +72,7 @@ python src/write_scores.py \
     --dataset "asset" \
     --max_response_length "100"
 ```
+Precommputed scores for a large variety of models and decoding algorithms are available at: [https://doi.org/10.5281/zenodo.10025272](https://doi.org/10.5281/zenodo.10025272).
 
 ## Probing Representations of Uncertainty and Assessing Statistical Fitness 
 We assess the statistical fitness of the candidate system by analysing its outputs w.r.t. itself (self-variability) or a system known to be plausible (human references) for different divergence measures. This analysis is done in `fitness_analysis.ipynb`. This notebook also contains the plots included in the paper. 
